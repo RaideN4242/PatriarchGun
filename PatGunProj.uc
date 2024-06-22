@@ -1,4 +1,4 @@
-class PatGunProj extends RPGProjp;
+class PatGunProj extends LAWProj;
 
 simulated function Explode(vector HitLocation, vector HitNormal)
 {
