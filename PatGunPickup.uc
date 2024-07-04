@@ -7,15 +7,15 @@
 // Copyright (C) 2011 Tripwire Interactive LLC
 // - John "Ramm-Jaeger" Gibson
 //=============================================================================
-class PatGunPickup extends ProfessionalWeaponPickup;
+class PatGunPickup extends KFWeaponPickup;
 
 defaultproperties
 {
-	Veterancy(0) = Class'SRVetCommando'
-	Veterancy(1) = Class'SRVetFirebug'
-	Veterancy(2) = Class'SRVetProtonSpecial'
-	 StartLevel = 5
-	 LastLevel=99
+//	Veterancy(0) = Class'SRVetCommando'
+//	Veterancy(1) = Class'SRVetFirebug'
+//	Veterancy(2) = Class'SRVetProtonSpecial'
+//	 StartLevel = 5
+//	 LastLevel=99
 	Weight=0.000000
 	cost=3000
 	AmmoCost=30
